@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence (AI) enables machines to perform tasks that normally require human intelligence."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a branch of AI where systems learn from data without being explicitly programmed."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing (NLP) allows computers to understand and process human language."
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a popular programming language widely used in AI, Data Science and Web Development."
+  },
+  {
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight Python web framework used for building web applications."
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML is the standard markup language used to create web pages."
+  },
+  {
+    "question": "What is CSS?",
+    "answer": "CSS is used to style and design HTML webpages."
+  },
+  {
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is used to make websites interactive and dynamic."
+  },
+  {
+    "question": "What is GitHub?",
+    "answer": "GitHub is a cloud platform used to host and manage Git repositories."
+  },
+  {
+    "question": "What is CodeAlpha?",
+    "answer": "CodeAlpha provides internship opportunities and practical software development tasks."
+  },
+  {
+    "question": "How to install Python?",
+    "answer": "Download Python from python.org, install it and enable the Add to PATH option."
+  },
+  {
+    "question": "How to install Flask?",
+    "answer": "Run the command: pip install flask"
+  },
+  {
+    "question": "How to install NLTK?",
+    "answer": "Run the command: pip install nltk"
+  },
+  {
+    "question": "How to install Scikit Learn?",
+    "answer": "Run the command: pip install scikit-learn"
+  },
+  {
+    "question": "What is Cosine Similarity?",
+    "answer": "Cosine Similarity measures how similar two text vectors are."
+  },
+  {
+    "question": "What is TF IDF?",
+    "answer": "TF-IDF converts text into numerical vectors based on word importance."
+  },
+  {
+    "question": "Who developed Python?",
+    "answer": "Python was created by Guido van Rossum."
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Science is the process of extracting insights from data using statistics, programming and AI."
+  },
+  {
+    "question": "What is ChatGPT?",
+    "answer": "ChatGPT is an AI chatbot developed by OpenAI for natural language conversations."
+  },
+  {
+  "question": "What is AI?",
+  "answer": "Artificial Intelligence (AI) enables machines to perform tasks that normally require human intelligence."
+  }
+]

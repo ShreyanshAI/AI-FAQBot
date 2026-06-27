@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FAQBot AI</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="background">
+
+<div class="blob b1"></div>
+
+<div class="blob b2"></div>
+
+<div class="blob b3"></div>
+
+</div>
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-robot"></i>
+
+<h2>FAQBot AI</h2>
+
+</div>
+
+<div class="status">
+
+<span class="dot"></span>
+
+Online
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>AI FAQ Chatbot</h1>
+
+<p>Ask anything related to AI, Python, Flask or Programming.</p>
+
+</section>
+
+<div class="chat-container">
+
+<div class="chat-box" id="chatBox">
+
+<div class="bot-message">
+
+👋 Hello! I am FAQBot AI.<br><br>
+
+Ask me any question.
+
+</div>
+
+</div>
+<div class="chat-actions">
+    <button id="clearChatBtn">🗑 Clear Chat</button>
+</div>
+<div class="chat-input">
+
+<input
+type="text"
+id="userInput"
+placeholder="Type your question...">
+
+<button id="sendBtn">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+<section class="quick-questions">
+
+<h2>Suggested Questions</h2>
+
+<div class="question-grid">
+
+<button class="question-btn">
+What is Artificial Intelligence?
+</button>
+
+<button class="question-btn">
+What is Machine Learning?
+</button>
+
+<button class="question-btn">
+What is NLP?
+</button>
+
+<button class="question-btn">
+What is Flask?
+</button>
+
+<button class="question-btn">
+How to install Flask?
+</button>
+
+<button class="question-btn">
+What is Python?
+</button>
+
+<button class="question-btn">
+Who developed Python?
+</button>
+
+<button class="question-btn">
+What is GitHub?
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>FAQBot AI</h3>
+
+<p>
+Developed by Shreyansh Bhadada | CodeAlpha Internship Project
+</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="fa-brands fa-github"></i></a>
+
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+<a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+</div>
+
+</footer>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
